@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KtaPulte", "KtaPulte\KtaPulte.csproj", "{8865C06F-ED6E-4757-A14E-1C4239C6A25B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8865C06F-ED6E-4757-A14E-1C4239C6A25B}.Debug|x86.ActiveCfg = Debug|x86
+		{8865C06F-ED6E-4757-A14E-1C4239C6A25B}.Debug|x86.Build.0 = Debug|x86
+		{8865C06F-ED6E-4757-A14E-1C4239C6A25B}.Release|x86.ActiveCfg = Release|x86
+		{8865C06F-ED6E-4757-A14E-1C4239C6A25B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
