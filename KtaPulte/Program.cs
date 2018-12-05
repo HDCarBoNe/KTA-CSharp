@@ -17,9 +17,7 @@ namespace KtaPulte
             KTA.Tirer(45);
             string pierre = "Une pierre de 5 Kg";
             KTA.Tirer(pierre);
-            KTA.getLifeSpoon();
-            KTA.getLifeSpoon();
-            KTA.setDamageBody(6);
+            KTA.Degats(40);
             Console.ReadKey();
         }
     }

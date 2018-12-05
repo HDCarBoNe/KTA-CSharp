@@ -48,9 +48,9 @@ namespace KtaPulte.Class
             return BeamLife = life;
         }
 
-        public void getLifeBeam()
+        public int getLifeBeam()
         {
-            Console.WriteLine(BeamLife);
+            return BeamLife;
         }
 
         public int setDamageBeam(int damage)
