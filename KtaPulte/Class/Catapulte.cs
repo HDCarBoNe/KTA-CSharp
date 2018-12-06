@@ -12,6 +12,21 @@ namespace KtaPulte.Class
             setLifeBeam();
         }
 
+        public void Degats(int dgt)
+        {
+            int LifeBeam = this.getLifeBeam();
+            int LifeSpoon = this.getLifeSpoon();
+            int LifeRope = this.getLifeRope();
+            int LifeKTA = LifeBeam + LifeSpoon + LifeRope;
+            int PurcentBeam = LifeBeam / LifeKTA * 100;
+            int PurcentRope = LifeRope / LifeKTA * 100;
+            int PurcentSpoon = LifeSpoon / LifeKTA * 100;
+            Console.WriteLine(PurcentRope);
+            setDamageBeam(dgt*PurcentBeam);
+            setDamageRope(dgt*PurcentRope);
+            setDamageSpoon(dgt*PurcentSpoon);
+        }
+
         public override void Tir()
         {
             Console.WriteLine("Mettre le feu au poudre");

@@ -47,9 +47,9 @@ namespace KtaPulte.Class
             return lifeSpoon = life;
         }
 
-        public void getLifeSpoon()
+        public int getLifeSpoon()
         {
-            Console.WriteLine(lifeSpoon);
+            return lifeSpoon;
         }
 
         public int setDamageSpoon(int damage)
