@@ -27,6 +27,14 @@ namespace KtaPulte
                 tableau[i] = new ListeObjets<string, int>(tab2[i], tab3[i]);
                 Console.WriteLine(tableau[i].ToString());
             }
+            Catapulte KTA = new Catapulte();
+            KTA.Assemblage();
+            KTA.Tirer(45);
+            string pierre = "Une pierre de 5 Kg";
+            KTA.Tirer(pierre);
+            KTA.getLifeSpoon();
+            KTA.getLifeSpoon();
+            KTA.setDamageBody(6);
             Console.ReadKey();
         }
     }

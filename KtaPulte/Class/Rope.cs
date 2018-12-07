@@ -48,9 +48,9 @@ namespace KtaPulte.Class
             return RopeLife = life;
         }
 
-        public void getLifeRope()
+        public int getLifeRope()
         {
-            Console.WriteLine(RopeLife);
+            return RopeLife;
         }
 
         public int setDamageRope(int damage)
