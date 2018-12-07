@@ -40,6 +40,7 @@
     <Compile Include="Class\Spoon.cs" />
     <Compile Include="Class\Rope.cs" />
     <Compile Include="Class\Beam.cs" />
+    <Compile Include="Class\ListeObjets.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Class\" />
