@@ -41,6 +41,7 @@
     <Compile Include="Class\Rope.cs" />
     <Compile Include="Class\Beam.cs" />
     <Compile Include="Class\ListeObjets.cs" />
+    <Compile Include="Class\Arm.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Class\" />

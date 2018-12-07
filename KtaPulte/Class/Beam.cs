@@ -4,10 +4,10 @@ using System.IO;
 using System.Text.RegularExpressions;
 namespace KtaPulte.Class
 {
-    public class Beam
+    public class Beam : CorpsCatapulte
     {
         private int BeamLife;
-        public int setLifeBeam()
+        public new int setLifeBeam()
         {
             String username = "groupe11";
             String password = "cPQzPyB5";

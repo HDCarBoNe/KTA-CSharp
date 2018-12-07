@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 namespace KtaPulte.Class
 {
-    public class Spoon : Rope
+    public class Spoon : CorpsCatapulte
     {
         private int lifeSpoon;
         public int setLifeSpoon()
