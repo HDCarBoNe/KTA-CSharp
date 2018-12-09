@@ -1,7 +1,7 @@
 ﻿using System;
 namespace KtaPulte.Class
 {
-    public abstract class ArmeDeJet: CorpsCatapulte
+    public class ArmeDeJet: CorpsCatapulte
     {
         public void Tirer(int num)
         {
@@ -11,8 +11,7 @@ namespace KtaPulte.Class
         {
             Console.WriteLine("Tirer avec une puissance de " + num);
         }
-        public int Life { get; set; }
-        public abstract void Tir();
+
 
         public virtual void PrepaTir()
         {

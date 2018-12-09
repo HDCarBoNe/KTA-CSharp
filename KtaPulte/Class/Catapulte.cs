@@ -1,26 +1,17 @@
 ﻿using System;
 namespace KtaPulte.Class
 {
-    class Catapulte
+    class Catapulte : ArmeDeJet
     {
-
-        public Catapulte(){
-            CorpsCatapulte c = new CorpsCatapulte();
-        }
-        public void Tir()
+        CorpsCatapulte corps;
+        public Catapulte()
         {
-            Console.WriteLine("Mettre le feu au poudre");
-        }
-        public void PrepaTir()
-        {
-            Console.WriteLine("Charger le boulet");
-        }
-        public void Fire()
-        {
-            Console.WriteLine("Appel de la fonction mère");
-            //base.Fire();
-            Console.WriteLine("Feu de tout bois.");
+            corps = new CorpsCatapulte();
         }
 
+        public int CatapulteLife()
+        {
+            return corps.getLife("Rope");
+        }
     }
 }
